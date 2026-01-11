@@ -1,3 +1,10 @@
+:root {
+    --teal: hsl(179, 62%, 43%);
+    --green: hsl(71, 73%, 54%);
+    --light-teal: hsl(204, 43%, 93%);
+    --gray: hsl(218, 22%, 67%);
+}
+
 * {
     margin: 0;
     padding: 0px;
@@ -6,8 +13,55 @@
 
 body {
     font-size: 16px;
+    font-family: "Karla", sans-serif;
 }
 
 .card {
     
+    max-width: 100%;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
 }
+
+.top-card h4 {
+    color: var(--green);
+}
+
+.top-card p {
+    color: var(--gray);
+}
+
+h3 {
+    color: var(--teal);
+    font-weight: 700;
+}
+
+.bottom-card  {
+    display: flex;
+    color: white;
+
+}
+
+.monthly-sub {
+    background-color: var(--teal);
+    max-width: 100%;
+    width: 100%;
+}
+
+.why-us {
+    background-color: hsla(179, 62%, 43%, .7)
+}
+
+button {
+    background-color: var(--green);
+    color: white;
+    border: none;
+    padding: 10px 85px;
+    border-radius: 5px;
+}
+
+
+
+
+

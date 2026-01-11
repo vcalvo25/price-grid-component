@@ -6,6 +6,11 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Coiny&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lavishly+Yours&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Single Price Grid Component</title>
 
 </head>
@@ -13,7 +18,7 @@
 
   <!--Top Horizontal Rectangle-->
   <div class="card">
-    <div class="horizontal-card">
+    <div class="top-card">
       <h3>Join our community</h3>
       <h4>30-day, hassle-free money back guarantee</h4>
 
@@ -21,23 +26,25 @@
       Perfect for any developers who are serious about honing their skills.</p>
     </div>
 <!--Vertical Squares-->
-    <div class="monthly-vertical">
+    <div class="bottom-card">
+      <div class="monthly-sub">
       <h4>Monthly Subscription</h4>
-      <p>&dollar;29 <p>per month</p></p>
-      <p>Full access for less than &dollar;1 a day</p> 
+      <p>&dollar;29 <p id="per-month">per month</p></p>
+      <p id="description">Full access for less than &dollar;1 a day</p> 
 
       <button>Sign Up</button>
     </div>
 
-    <div class="why-vertical">
+    <div class="why-us">
       <h4>Why Us</h4>
-      <p>Tutorials by industry experts
+      <p id="description">Tutorials by industry experts
         Peer &amp; expert code review
         Coding exercises
         Access to our GitHub repos
         Community forum
         Flashcard decks
         New videos every week</p>
+    </div>
     </div>
     
 </div>

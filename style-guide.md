@@ -13,7 +13,7 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Teal 500: hsl(179, 62%, 43%)
+- Teal 500: hsl((179, 62%, 43%))
 - Green 400: hsl(71, 73%, 54%)
 
 ### Neutral
