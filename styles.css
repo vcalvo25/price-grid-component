@@ -14,27 +14,36 @@
 body {
     font-size: 16px;
     font-family: "Karla", sans-serif;
+    margin: 150px auto;
 }
 
 .card {
-    
     max-width: 100%;
-    width: 50%;
+    width: 45%;
     margin: auto;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px var(--gray);
 }
 
-.top-card h4 {
+.top-card {
+    padding: 40px;
+}
+
+.top-card h3 {
     color: var(--green);
+    font-size: 16px;
+
+    padding-bottom: 15px;
 }
 
 .top-card p {
     color: var(--gray);
 }
 
-h3 {
+.top-card h2 {
     color: var(--teal);
     font-weight: 700;
+    padding-bottom: 20px;
 }
 
 .bottom-card  {
@@ -47,11 +56,25 @@ h3 {
     background-color: var(--teal);
     max-width: 100%;
     width: 100%;
+    border-radius: 0px 0px 0px 10px;
 }
 
 .why-us {
-    background-color: hsla(179, 62%, 43%, .7)
+    background-color: hsla(179, 62%, 43%, .8);
+    padding: 30px;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 0px 0px 10px 0px;
+
 }
+
+.why-us li {
+    list-style-type: none;
+    line-height: 25px;
+    color: hsla(100, 100%, 100%, .8)
+}
+
+
 
 button {
     background-color: var(--green);
